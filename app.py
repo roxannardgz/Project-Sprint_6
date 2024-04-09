@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Import necessary data - (data after changing data types, adding new columns and filling null values)
-vehicles_data = pd.read_csv('notebook/vehicles_clean.csv')
+vehicles_data = pd.read_csv('vehicles_clean.csv')
 
 st.set_page_config(page_title='Vehicle Explorer', page_icon=':car:', layout="wide", initial_sidebar_state="auto", menu_items=None)
 
